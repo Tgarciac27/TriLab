@@ -122,7 +122,7 @@ def cargar_datos_ejemplo():
 # ── Funcion principal del modulo ──
 
 def mostrar():
-    st.title('📊 Registro y Analisis de Entrenamientos')
+    st.title('Registro y Analisis de Entrenamientos')
 
     # Inicializamos el registro en session_state para que persista
     if 'registro' not in st.session_state:
@@ -132,10 +132,10 @@ def mostrar():
 
     # ── Tabs del modulo ──
     tab1, tab2, tab3, tab4 = st.tabs([
-        '📈 Resumen',
-        '📋 Historial',
-        '➕ Registrar sesion',
-        '🤖 Recomendaciones IA',
+        'Resumen',
+        'Historial',
+        'Registrar sesion',
+        'Recomendaciones IA',
     ])
 
     # ── TAB 1: Resumen ──
